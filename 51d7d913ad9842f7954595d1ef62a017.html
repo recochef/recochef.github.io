@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F9Y9HC95G"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "G-5F9Y9HC95G");
+      </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Chrome, Firefox OS and Opera Status Bar Color -->
+  <meta name="theme-color" content="#FFFFFF">
+  <meta property="og:title" content="Bandit Recommenders">
+    <meta property="og:type" content="blog">
+  <title>Bandit Recommenders</title>
+<link rel="icon" type="image/png" href="./favicon.png"/>
+  <!-- Favicon -->
+    <link rel="shortcut icon" target="_blank" href="🌀">
+    <link rel="stylesheet" type="text/css" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+  <link rel="stylesheet" type="text/css"
+    target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+  <link rel="stylesheet" type="text/css" target="_blank" href="css/SourceSansPro.css">
+  <link rel="stylesheet" type="text/css" target="_blank" href="css/notablog.css">
+  <link rel="stylesheet" type="text/css" target="_blank" href="css/theme.css">
+  <style>
+    :root {
+      font-size: 18px;
+    }
+
+    .DateTagBar {
+      margin-top: 1.0rem;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="Navbar">
+    <a href="index">
+      <div class="Navbar__Btn"><span>🌀</span> <span>Home</span></div>
+    </a>
+                                                                                                                                                                              </nav>
+  <header class="Header">
+          <div class="Header__Spacer Header__Spacer--NoCover">
+    </div>
+        <h1 class="Header__Title">Bandit Recommenders</h1>
+            <div class="DateTagBar">
+                <span class="DateTagBar__Item DateTagBar__Date">Posted on Wed, Apr 14, 2021</span>
+                            </div>
+          </header>
+      <article id="https://www.notion.so/51d7d913ad9842f7954595d1ef62a017" class="PageRoot"><h1 id="https://www.notion.so/fdf0e4b27cf7412f875b3508f6f33355" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" target="_blank" href="#https://www.notion.so/fdf0e4b27cf7412f875b3508f6f33355"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">What is Bandit based Recommendation?</strong></span></span></h1><div id="https://www.notion.so/dadb5f2ff3e142239037b1032b993abc" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Traditionally, the recommendation problem was considered as a simple classification or prediction problem; however, the sequential nature of the recommendation problem has been shown. Accordingly, it can be formulated as a Markov decision process (MDP) and reinforcement learning (RL) methods can be employed to solve it. In fact, recent advances in combining deep learning with traditional RL methods, i.e. deep reinforcement learning (DRL), has made it possible to apply RL to the recommendation problem with massive state and action spaces.</span></span></p></div><h2 id="https://www.notion.so/c782c0ab17b24ea7af029845112f2aea" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" target="_blank" href="#https://www.notion.so/c782c0ab17b24ea7af029845112f2aea"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Use case 1: Personalized recommendations</strong></span></span></h2><div id="https://www.notion.so/1198e339730f481699f4ef7e32e52339" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Goal: Quickly help users find products they would like to buy</span></span></p></div><div id="https://www.notion.so/75ffb4301fef412d816d847714e8ef03" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">In e-commerce and other digital domains, companies frequently want to offer personalized product recommendations to users. This is hard when you don’t yet know a lot about the customer, or you don’t understand what features of a product are pertinent. With limited information about what actions to take, what their payoffs will be, and limited resources to explore the competing actions that you can take, it is hard to know what to do.</span></span></p></div><h2 id="https://www.notion.so/70560156f41b449ea4e446444cf7965b" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" target="_blank" href="#https://www.notion.so/70560156f41b449ea4e446444cf7965b"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Use case 2: Online model evaluation</strong></span></span></h2><div id="https://www.notion.so/84c65092d4014fd190b4281950bdf799" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Goal: Compare and find the best performing recommender model</span></span></p></div><h2 id="https://www.notion.so/590122e68c4b45e3b0d9b5c900d13e89" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" target="_blank" href="#https://www.notion.so/590122e68c4b45e3b0d9b5c900d13e89"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Use case 3: Personalized re-ranking</strong></span></span></h2><div id="https://www.notion.so/2d1ed4a6a9f04f61b91c122f8eac2c15" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Goal: Bring the most relevant option to the top</span></span></p></div><h2 id="https://www.notion.so/1f9c9d996bf24864aeac850bcdb5271e" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" target="_blank" href="#https://www.notion.so/1f9c9d996bf24864aeac850bcdb5271e"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">Use case 4: Personalized feeds</strong></span></span></h2><div id="https://www.notion.so/d8017e78b8d3499cbf0a264bfb58b97a" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">Goal: Recommend a never-ending feed of items (news, products, images, music)</span></span></p></div><div id="https://www.notion.so/8cf622facccf4130a78fdbd863351698" class="Embed"><div class="Embed__Content"><div class="Embed__ResponsiveContainer" style="width:854px;padding-bottom:56.20608899297424%"><iframe src="https://www.youtube.com/embed/CgGCbmlRI3o?feature=oembed" sandbox="allow-scripts allow-popups allow-forms allow-same-origin" allowfullscreen=""></iframe></div></div><p class="Embed__Caption"><span class="SemanticStringArray"></span></p></div></article>  <footer class="Footer">
+        <div>&copy; RecoChef 2021</div>
+        <div>&centerdot;</div>
+        <div>Powered by <a target="_blank" href="https://github.com/dragonman225/notablog" target="_blank"
+            rel="noopener noreferrer">Notablog</a>.
+        </div>
+    </footer>
+</body>
+
+</html>
